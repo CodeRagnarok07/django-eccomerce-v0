@@ -1,0 +1,13 @@
+
+
+
+# enviromens
+env/
+venv/
+.venv/
+.env/
+
+
+# build
+__pycache__/
+*.cpy

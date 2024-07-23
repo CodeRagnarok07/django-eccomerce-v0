@@ -45,6 +45,6 @@ class Variant(models.Model):
 
 
 class VariantGalery(models.Model):
-    img = models.ImageField()
+    img = models.ImageField(upload_to="gallery")
     product = models.ForeignKey(Variant, on_delete=models.CASCADE, related_name="variant_gallery" )
     
